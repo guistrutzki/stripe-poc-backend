@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 import Stripe from 'stripe';
 
-const secretKey = 'sk_test_51L3QSOKfUaT73IIiW8gJhdxUzt8JqesxOWXxJyvsbfVNM8RYTaA6aSwqMRlblqzQlA9r8qpkFeGCCz3SGeOutCeJ00vtWJ0dnT'
-const publishableKey = 'pk_test_51L3QSOKfUaT73IIi6UVCw15m9eLw79iUmcxvAC19UE3Qlv2qz6FsyH4VwbHRIIOhdzaNetNypjSKC2WbprNigURj00ExLlYjKh'
+const secretKey = process.env.SECRET_KEY!
+const publishableKey = process.env.PUBLISHABLE_KEY!
 const customerId = 'cus_LmjU6zgMsaYIms'
 
 const stripe = new Stripe(secretKey, { apiVersion: '2020-08-27' })
