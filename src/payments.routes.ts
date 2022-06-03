@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CreatePaymentIntentController } from './useCases/createPaymentIntent/createPaymentIntentController';
+import { CreatePaymentIntentController } from './useCases/createPaymentIntent/CreatePaymentIntentController';
 
 const paymentRoutes = Router()
 
