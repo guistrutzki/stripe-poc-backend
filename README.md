@@ -5,7 +5,7 @@
 * Create a new Stripe account
 * Enable Test Mode
 * Go to Stripe [developer dashboard](https://dashboard.stripe.com/test/dashboard) and copy the `Publishable key` and `Secret key`
-* Create a new customer and copy it's `id`. With that its possible to link a payment intent to a specific customer.
+* Create a new customer and copy its `id`. With that it's possible to link a payment intent to a specific customer.
 * Add these keys to the `.env.example` file and rename it to `.env`
 
 ## Run
