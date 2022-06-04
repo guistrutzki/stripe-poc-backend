@@ -2,7 +2,7 @@ import 'dotenv/config'
 import express from "express"
 import "express-async-errors"
 import cors from "cors";
-import { router } from "./router"
+import { router } from "./routes"
 import { morganLogging } from "./middlewares/logger";
 import { errorMiddleware } from './middlewares/error';
 

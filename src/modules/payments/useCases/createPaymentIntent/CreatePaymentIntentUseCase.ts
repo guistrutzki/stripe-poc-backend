@@ -33,6 +33,7 @@ class CreatePaymentIntentUseCase {
         amount: totalAmount,
         customer: customerId,
         description: "Schedule an appointment",
+        capture_method: 'manual',
         payment_method_types: ["card"],
         currency,
       }
