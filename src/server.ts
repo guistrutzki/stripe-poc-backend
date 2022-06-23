@@ -16,4 +16,4 @@ app.use(router)
 
 app.use(errorMiddleware)
 
-app.listen(3000, () => console.log("Server is running 🚀 - Port 3000"))
+app.listen(80, () => console.log("Server is running 🚀 - Port 3000"))

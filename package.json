@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "postinstall": "tsc",
     "start": "node dist/server.js",
-    "deploy": "git add . && git commit -m Heroku && git push heroku master"
+    "deploy": "git add . && git commit -m Heroku && git push heroku main"
   },
   "dependencies": {
     "cors": "^2.8.5",
